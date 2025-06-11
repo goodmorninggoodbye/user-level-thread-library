@@ -1,13 +1,3 @@
-// File:	thread-worker.c
-
-// List all group member's name:
-/* Ewan Jee (ej307)
- * Paul Samoylov (ps1172)
- */
-// username of iLab: kill
-// iLab Server: kill.cs.rutgers.edu
-
-
 #include "thread-worker.h"
 #include "thread_worker_types.h"
 #include <unistd.h>
@@ -24,8 +14,6 @@
 #define STACK_SIZE 16 * 1024
 #define QUANTUM 10 * 1000
 
-
-// INITIALIZE ALL YOUR OTHER VARIABLES HERE
 
 LL *ThreadQueue = NULL;
 static unsigned int threadID = 0;
@@ -96,7 +84,6 @@ tcb *getBlock(worker_t tid){
     return NULL;
 }
 
-/* create a new thread */
 int worker_create(worker_t *thread, pthread_attr_t *attr, void *(*function)(void *), void *arg){
     if (!threadID){
         mainThreadAdd();
