@@ -1,6 +1,6 @@
 # User-Level Threading Library
 
-Lightweight, preemptive threading framework built in C for applications requiring fine-grained concurrency control and minimal kernel overhead. Features custom scheduler implementation with microsecond-precision timing and comprehensive synchronization primitives.
+Lightweight, preemptive threading framework built in C. Features custom scheduler implementation and comprehensive synchronization primitives.
 
 ## Key Features
 
