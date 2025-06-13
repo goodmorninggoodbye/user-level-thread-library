@@ -1,4 +1,4 @@
-# High-Performance User-Level Threading Library
+# User-Level Threading Library
 
 Lightweight, preemptive threading framework built in C for applications requiring fine-grained concurrency control and minimal kernel overhead. Features custom scheduler implementation with microsecond-precision timing and comprehensive synchronization primitives.
 
